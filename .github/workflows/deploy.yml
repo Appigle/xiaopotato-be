@@ -3,7 +3,7 @@ name: Deploy Spring Boot Application
 on:
   push:
     branches:
-      - main  # Trigger when merging到main分支时触发
+      - main  # Trigger when merging到main分支时触发 +1
   schedule:
     - cron: '30 1 * * *' # Runs every day at 1:30 AM UTC
     
